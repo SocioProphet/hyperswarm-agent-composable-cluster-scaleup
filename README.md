@@ -15,6 +15,11 @@ and fetches them into `third_party/` for reproducibility and license correctness
 - krew (kubectl plugin manager)
 - heroku-buildpack-apt (legacy reference only; not required; no releases upstream)
 
+## Documentation
+- Specification: `docs/SPECIFICATION.md`
+- Upstream rationale: `docs/UPSTREAMS.md`
+- Standards gaps/issues: `docs/STANDARDS_GAPS.md`
+
 ## Quickstart
 1) Fetch upstreams:
    - `make fetch`
