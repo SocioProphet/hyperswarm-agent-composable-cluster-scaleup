@@ -13,7 +13,6 @@ and fetches them into `third_party/` for reproducibility and license correctness
 ## What gets fetched (pinned upstreams)
 - kubespray (Kubernetes cluster provisioning)
 - krew (kubectl plugin manager)
-- fybrik / IBM-the-mesh-for-data lineage (data plane policy/control patterns; optional)
 - heroku-buildpack-apt (legacy reference only; not required; no releases upstream)
 
 ## Quickstart
