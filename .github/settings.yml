@@ -1,0 +1,29 @@
+repository:
+  description: "Reproducible, policy-forward wrapper that pins upstream cluster scale-up primitives for SocioProphet."
+  topics:
+    - hyper-swarm
+    - hyperswarm
+    - agent
+    - composable
+    - cluster
+    - scale-up
+    - kubernetes
+    - k8s
+    - kubespray
+    - krew
+    - provisioning
+    - automation
+    - reproducibility
+    - supply-chain
+    - security
+    - policy
+    - governance
+    - socioprophet
+    - sociosphere
+    - tritrpc
+    - standards
+    - storage
+    - infrastructure
+    - devops
+    - platform
+    - wrapper
