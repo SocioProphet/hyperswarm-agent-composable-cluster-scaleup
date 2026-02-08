@@ -21,6 +21,7 @@ binds the wrapper to the larger SocioProphet ecosystem.
 - **Capability ID:** `caps.infra.cluster-scaleup.hyperswarm@0.1.0`
 - **Kind:** `infra.wrapper`
 - **Status:** `experimental`
+- **Description:** Reproducible wrapper that pins and fetches upstream cluster scale-up toolchains into `third_party/` without vendoring.
 - **Primary metadata file:** `capd/hyperswarm.cluster-scaleup.capd.json`
 
 ## Artifacts
