@@ -2,6 +2,13 @@
 
 **Tagline:** A reproducible, policy-forward wrapper that pins upstream scale-up primitives for SocioProphet's cluster expansion workflows.
 
+## About
+The **HyperSwarm Agent Composable Cluster — Scale-Up Wrapper** is a SocioProphet integration layer that standardizes how cluster scale-up tooling is fetched, pinned, and validated. It focuses on reproducibility, supply-chain integrity, and policy alignment by referencing upstream sources without vendoring them by default. Use this repository to define and validate the upstream versions and governance controls that power HyperSwarm cluster expansion workflows.
+
+**Suggested GitHub About blurb (short):** Policy-forward wrapper that pins and validates upstream scale-up tooling for HyperSwarm clusters.
+
+**Suggested GitHub topics:** hyperswarm, cluster, scale-up, kubernetes, k8s, kubespray, krew, automation, reproducibility, supply-chain, security, governance, wrapper, sociprophet
+
 ## Repository description (pedantic)
 This repository provides the **HyperSwarm Agent Composable Cluster — Scale-Up Wrapper**, a SocioProphet integration layer that orchestrates reproducible cluster scale-up primitives by pinning and validating upstream sources rather than vendoring them directly. The repository exists to define how upstream tooling is fetched, validated, and contextualized against SocioProphet's canonical standards and governance controls. It is intentionally minimal: it wires provenance, validation gates, and documentation for upstreams without forking or embedding their source by default.
 
