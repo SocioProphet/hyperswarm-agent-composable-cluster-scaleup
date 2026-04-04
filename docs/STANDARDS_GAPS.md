@@ -3,18 +3,22 @@
 This file tracks gaps against the SocioProphet storage standards that could not be fully
 verified or remediated in the current change set.
 
-## Open Issues
-1. **Standards source unavailable in this environment**
-   - **Gap:** The storage standards repository could not be fetched due to network restrictions
-     (GitHub 403), so the authoritative checklist could not be verified line-by-line.
-   - **Impact:** Documentation completeness is based on best-effort interpretation of expected
-     storage standards sections.
-   - **Remediation:** Re-run documentation review with direct access to
-     `https://github.com/SocioProphet/socioprophet-standards-storage` and map each requirement to
-     this repository's artifacts.
+## Current Status
+A baseline standards alignment narrative exists in `docs/SPECIFICATION.md` and a downstream
+integration checklist now exists in `docs/INTEGRATION.md`.
 
-2. **Explicit standards mapping table**
-   - **Gap:** A formal crosswalk table from storage standard requirements to repository files is
-     not included because the canonical requirement list was unavailable.
-   - **Impact:** Auditors must infer alignment from the narrative specification.
-   - **Remediation:** Add a standards crosswalk section once the standards checklist is available.
+## Open Issues
+1. **Authoritative standards checklist is not embedded here**
+   - **Gap:** This repository still depends on the canonical standards source in
+     `SocioProphet/socioprophet-standards-storage` and does not embed a frozen requirement catalog.
+   - **Impact:** Requirement-by-requirement compliance audits still require cross-referencing the
+     upstream standards repository.
+   - **Remediation:** Add a versioned standards crosswalk table keyed to a specific upstream commit
+     hash from `socioprophet-standards-storage`.
+
+2. **Machine-readable control mapping**
+   - **Gap:** Standards alignment is documented narratively, but no machine-readable control map
+     (JSON/YAML) is provided for automated compliance checks.
+   - **Impact:** Automated governance systems cannot yet consume fine-grained control assertions.
+   - **Remediation:** Add `docs/standards-crosswalk.json` and validate required control IDs in
+     `tools/validate.py`.
