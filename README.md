@@ -32,8 +32,18 @@ and fetches them into `third_party/` for reproducibility and license correctness
 
 ## Documentation
 - Specification: `docs/SPECIFICATION.md`
+- Integration playbook: `docs/INTEGRATION.md`
 - Upstream rationale: `docs/UPSTREAMS.md`
 - Standards gaps/issues: `docs/STANDARDS_GAPS.md`
+
+## Integration quick reference
+Use this repository as the source of truth for pinned upstream refs and deterministic fetch behavior:
+
+1) In `SocioProphet/prophet-platform`, reference this wrapper in infrastructure docs/runbooks and consume `tools/upstreams.env` as the cluster scale-up source-of-truth.
+2) In `SocioProphet/sociosphere`, include `make validate` in cross-repo governance checks.
+3) In systems consuming triRPC contracts, keep this wrapper as an implementation detail; protocol ownership remains upstream in `SocioProphet/tritrpc`.
+
+For a detailed, copy/paste-ready integration checklist see `docs/INTEGRATION.md`.
 
 ## License and notices
 - License: MIT (see `LICENSE`).

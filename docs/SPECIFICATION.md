@@ -31,6 +31,7 @@ binds the wrapper to the larger SocioProphet ecosystem.
 | Pinned refs | `tools/upstreams.env` | Single source of truth for upstream URLs and tags/commits. |
 | Validation | `tools/validate.py` | Verifies required docs, gitignore rules, and pinned refs. |
 | Upstream notes | `docs/UPSTREAMS.md` | Rationale for upstream choices and linkage references. |
+| Integration playbook | `docs/INTEGRATION.md` | Downstream integration checklist for SocioProphet repositories. |
 
 ## Upstreams (Pinned Dependencies)
 All upstreams are pinned to tags or commits unless explicitly allowed otherwise.

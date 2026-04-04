@@ -13,6 +13,7 @@ REQUIRED = [
     "LICENSE",
     "NOTICE.md",
     "docs/UPSTREAMS.md",
+    "docs/INTEGRATION.md",
     "tools/upstreams.env",
     "tools/fetch_upstreams.sh",
 ]
