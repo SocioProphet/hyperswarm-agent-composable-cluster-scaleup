@@ -26,6 +26,10 @@ and fetches them into `third_party/` for reproducibility and license correctness
 2) Validate repo gates:
    - `make validate`
 
+## Branch-driven tasking
+- Some automation flows encode the implementation task in the active Git branch name.
+- Before making changes, verify the current branch and interpret any embedded instruction text.
+
 ## Non-goals
 - We do not ship secrets.
 - We do not fork canonical specs here (triRPC remains canonical upstream).
